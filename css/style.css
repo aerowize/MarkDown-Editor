@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;700&family=Source+Code+Pro:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkslategray;
+
+}
+
+main {
+    font-family: 'Source Code Pro', monospace;
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    font-family: 'Prompt', sans-serif;
+    background-color: #334756;
+    color: whitesmoke;
+}
+
+h1 {
+    border-right: 1px solid #FF4C29;
+    padding-right: 1rem;
+    
+    font-weight: 700;
+    margin-left: 1rem;
+}
+
+iframe {
+    
+    height: 100%;
+    width: 100%;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+/* flex classes */
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-bet {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-col {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+/* General Use */
+.clicker:hover {
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+/* Header */
+.h-contain {
+    padding: 1rem;
+
+}
+
+/* Delete */
+.trash {
+    width:1.5rem;
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+/* Save Button */
+.save {
+    width: 6rem;
+    padding: 0.7rem;
+    margin: .5rem;
+    border-radius: 4px;
+    color: whitesmoke;
+    background-color: #FF4C29;
+    
+}
+
+.save:hover {
+    cursor: pointer;
+    color: #FF4C29;
+    background-color: #2C394B;
+    outline: 2px solid #FF4C29;
+
+}
+
+/* New document Button */
+.new-doc button {
+    background-color: transparent;
+}
+
+.new-doc svg {
+    margin: 1rem;
+}
+
+/* Icon SVG Class */
+.ionicon {
+    color: whitesmoke;
+    height: 1.5rem;
+    
+
+}
+
+.ionicon:hover {
+    color: #FF4C29;
+}
+
+/* Middle Vertical Bar */
+.vertical {
+    height: 100%;
+    width: 4px;
+    background-color: #fa492695;
+}
+
+/* Editor and preview titles */
+.titles {
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: 'Prompt', sans-serif;
+    color: whitesmoke;
+    background-color: #2C394B;
+    padding: 1rem;
+}
+
+/* Editor text area */
+.area {
+    padding: 1rem;
+    color: #5d839d;
+    height: 100%;
+    background-color: #082032;
+}
