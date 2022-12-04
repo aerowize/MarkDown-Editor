@@ -143,6 +143,7 @@ textarea:focus {
 
 /* Editor text area */
 .area {
+    font-size: 1.2rem;
     padding: 1rem;
     color: #5d839d;
     height: 100%;
